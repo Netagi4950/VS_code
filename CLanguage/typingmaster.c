@@ -54,21 +54,20 @@ int main(){
     //chacking no or not
     int n=0,l=0;
     for (;pass[n]!='\0';n++){
-        char t= pass[n];
-        if (strpbrk(pass,'1234567890')==NULL){
+        if (strpbrk(pass,"1234567890")==NULL){
             l=0;
+            
         }
-        else{
+        else {
             l+=1;
         }
+        if (l=='0'){
+            printf("You have no digit in your passcode ");
+        }
+        else {
+            ("You have some digit in the paascode ");
+        }
     }
-     if (l=='0'){
-        printf ("You should have some digit in your passcode ");
-     }
-     else {
-        printf("It is always good to have some digit is your passcode..good");
-     }
-
     
     system ("pause ");
 
