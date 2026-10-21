@@ -101,7 +101,8 @@ int main(){
     }
     
     printf("Hi i am sayantan dhara ");
-    
+    pritnf("I am from kolkata\n");
+
     system("pause");
     return 0;
 }
