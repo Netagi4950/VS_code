@@ -100,6 +100,7 @@ int main(){
         ("%s you are not my friend\n",name );
     }
     
+    printf("Hi i am sayantan dhara ");
     
     system("pause");
     return 0;
