@@ -61,12 +61,12 @@ int main(){
         else {
             l+=1;
         }
-        if (l=='0'){
-            printf("You have no digit in your passcode ");
-        }
-        else {
-            ("You have some digit in the paascode ");
-        }
+    }
+    if (l=='0'){
+        printf("You have no digit in your passcode ");
+    }
+    else {
+        ("You have some digit in the paascode ");
     }
     
     system ("pause ");
