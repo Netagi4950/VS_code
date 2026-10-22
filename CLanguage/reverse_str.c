@@ -9,7 +9,8 @@ int main(){
     int i,n;
     n=strlen(name);
     for (n=n-1;n>=0;n--){
-        printf("%c",name[n]);
+        char c[20]=name[n];
+        printf("%s",c);
     }
     system("pause ");
     return 0;
