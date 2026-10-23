@@ -12,6 +12,6 @@ int main (){
             count ++;
         }
     }
-    printf ("Count of vowel (s)%d\n",count );
+    printf ("Count of vowel (s)%d--\n",count );
     return 0;
 }
