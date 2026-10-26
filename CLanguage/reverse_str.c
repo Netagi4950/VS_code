@@ -3,21 +3,20 @@
 #include <stdlib.h>
 int main(){
     system ("cls");
-    char name [20];
-    printf ("Enter your name ::");
-    scanf ("%10s",name );
-    int i,n,t;
-    n=strlen(name);
-    i=n;
-    i=t;
-    char name_2[100];
-    for (n=n-1;n>=0;n--){
-        for (i = 0; i <= n; i++) {
-            name_2[i] = name[n - i];
-        }
-        name_2[n + 1] = '\0';
-        printf("%s\n\n",name_2);
+    char name[100];
+
+    printf("Enter your name::");
+    scanf ("%19s",name);
+    printf ("Your name is --%s\n",name );
+    int n,i;
+    n=strlen (name);
+    char c[i];
+    printf ("The no of letter in the word is--%d\n\n",n);
+    for (i=0;i<=n;i++){
+        c[i]=name[n-1-i];
     }
-    system("pause ");
+    c[n]='\0';
+    printf("Your revind name is--%s\n\n",c);
+    system ("pause ");
     return 0;
 }
