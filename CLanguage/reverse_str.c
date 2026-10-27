@@ -6,7 +6,7 @@ int main(){
     char name[100];
 
     printf("Enter your name::");
-    scanf ("%19s",name);
+    scanf ("%39s",name);
     printf ("Your name is --%s\n",name );
     int n,i;
     n=strlen (name);

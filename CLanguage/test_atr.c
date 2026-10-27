@@ -1,27 +1,21 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 int main(){
-    int i =99;
-    char name[10]="sayantan";
-    if (i<=5){
-            printf("%s you are my normal friend\n",name );
-    
-        }
-        else if (i<=8){
-            printf("%s you are my special friend\n ",name);
-    
-        }
-        else if (i<=10){
-            printf("%s you are my best friend\n ",name );
-    
+    char name[40];
+    printf ("What is your name::");
+    scanf ("%20s",name );
+    printf("Your name is--%s\n",name );
+    int i,n,l,count=0;
+    char c[l];
+    i=strlen(name );
+    for (n=0;n<=i;n++){
+        c[l]=name[n-1];
+        if (c=='\0'){
+            count+=1;
         }
         
-        else{
-    
-            ("%s you are not my friend \n",name );
-        } 
-        return 0;
+    }
+    printf ("The no of space you  have in your word is--%d\n\n",count );
+    return 0;
 }
-
-
-    
