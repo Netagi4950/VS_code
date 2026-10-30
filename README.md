@@ -33,6 +33,6 @@ Welcome to my GitHub space! I’m a passionate developer diving deep into hands-
 ---
 
 ### 🤝 Connect with Me
-- **GitHub:** [@Netagi4950](https://github.com/Netagi4950)
+- **Instagram:** [sayantan_._4950](https://www.instagram.com/sayantan_._4950/)
 
 > *"Simplicity is prerequisite for reliability."* — Edsger W. Dijkstra
