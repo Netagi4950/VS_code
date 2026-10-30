@@ -1,4 +1,4 @@
-# Hi there, I'm Ayantan 👋 
+# Hi there, I'm Sayantan 👋 
 
 <img src="https://komarev.com/ghpvc/?username=Netagi4950&color=blueviolet&style=flat-square" alt="Profile Views" />
 
@@ -8,9 +8,9 @@ Welcome to my GitHub space! I’m a passionate developer diving deep into hands-
 
 ### 💻 Tech Stack & Tools
 
-* **Languages:** C, Python, JavaScript, HTML/CSS
-* **Systems & Environment:** Windows 11, Command Line (`diskpart`, shell scripting), Git & GitHub
-* **Hardware & Gear:** HP Victus (AMD Ryzen 7, RTX 2050), EvoFox Katana X2 TKL Mechanical Keyboard
+* **Languages:** C, Python
+* **Systems & Environment:** Windows 11
+* **Hardware & Gear:** HP Victus (AMD Ryzen 7)
 
 ---
 
