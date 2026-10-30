@@ -24,13 +24,12 @@ Welcome to my GitHub space! I’m a passionate developer diving deep into hands-
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Netagi4950&show_icons=true&theme=radical&hide_border=true" alt="Netagi4950's GitHub Stats" />
+  <img src="https://github-readme-stats.shion.dev/api?username=Netagi4950&show_icons=true&theme=radical&hide_border=true" alt="Netagi4950's GitHub Stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Netagi4950&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=Netagi4950&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
 </p>
-
 ---
 
 ### 🤝 Connect with Me
