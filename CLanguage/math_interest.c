@@ -1,16 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void google(){
+int main (){
     system("cls");
     int n,i,in,l,k,m;
     char q;
     
     //input section
+    system("cls");
     printf("Enter the amound :");
     scanf("%d",&n);
+    system("cls");
     printf("enter the interest rate :");
     scanf("%d",&in);
+    system("cls ");
     printf("Enter the no of year you want :");
     scanf("%d",&m);
     //calculation sectionn
@@ -20,10 +23,8 @@ void google(){
         n=n+k;
     }
     //print the result
+    system("cls");
     printf("the result is :%d \n",n);
     system("pause");
     return 0;
-}
-int main(){
-
 }
