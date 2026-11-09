@@ -27,9 +27,18 @@ int main(){
     system ("cls");
     printf ("Enter your school name: ");
     fgets (schname ,sizeof(schname),stdin);
-    //result section
-    
     system("cls");
+    //result section
+    char next2[40];
+    printf ("=================================\n");
+    printf("Here is your all data\n");
+    printf("=================================\n");
+    fgets(next2,sizeof(next2),stdin);
+    if(next2==(char)13){
+        system("cls");
+
+    }
+
     printf("Name--%s\n",name);
     printf("Mother's Name--%s\n",mname);
     printf("Father's Name--%s\n",fname);
