@@ -4,7 +4,7 @@
 #include <string.h>
 int main(){
     char name[40],fname[40],mname[40],schname[90];
-    int age,phone;
+    int age,phone=1;
     float hight;
     //input section
     //to take input of a str with space it it you have to do this below
@@ -30,14 +30,34 @@ int main(){
     printf ("Enter your school name: ");
     fgets (schname ,sizeof(schname),stdin);
     system("cls");
-    printf("What is your age : ");
-    scanf("%d",age );
+    //chacking area for age 
+    while (age>90||age <=5){
+        //age section 
+        printf("What is your age : ");
+        scanf("%d",&age );
+        
+    }
+    //end of this season
     system("cls");
+    //cheacking area for phone no
+    //number decode
     printf ("What is your phone no : ");
-    scanf("%d",phone);
+    scanf("%d",&phone); 
+    
+    //int i;
+    //for (i=1;i<=phone;i++){
+        
+    //}
+    //while(i>10||i<10){
+    //    printf ("What is your phone no : ");
+    //    scanf("%d",&phone);
+        
+    //}
+    
     system ("cls");
     printf( "What is your hight : ");
-    scanf ("%f",hight);
+    scanf ("%f",&hight);
+    system("cls");
 
     //result section
     char next2[40];
@@ -46,7 +66,7 @@ int main(){
     printf("=================================\n");
     fgets(next2,sizeof(next2),stdin);
     if(next2[0] == '\n')
-        //system("cls");
+        system("cls");
 
     //new start
 
@@ -54,7 +74,10 @@ int main(){
     printf("Mother's Name--%s\n",mname);
     printf("Father's Name--%s\n",fname);
     printf("School Name--%s\n",schname);
-    //next part
+    printf("Age--%d\n\n",age);
+    printf("phone no--%d\n",phone);
+    printf("Hight--%.2f\n",hight);
+    //next part is goning on
     char next[10];
     printf("Lets go to the next part : ");
     fgets(next,sizeof(next),stdin);
@@ -65,4 +88,4 @@ int main(){
     printf("Hi amn how are yo\n");
     system ("pause ");
     return 0;
-}
+}   
