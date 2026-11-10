@@ -4,7 +4,7 @@
 #include <string.h>
 int main(){
     char name[40],fname[40],mname[40],schname[90];
-    int age,phone=1;
+    int age,phone;
     float hight;
     //input section
     //to take input of a str with space it it you have to do this below
@@ -54,6 +54,9 @@ int main(){
         
     //}
     
+    //length =strlen(phone);
+    
+    
     system ("cls");
     printf( "What is your hight : ");
     scanf ("%f",&hight);
@@ -65,9 +68,9 @@ int main(){
     printf("     Here is your all data\n");
     printf("=================================\n");
     fgets(next2,sizeof(next2),stdin);
-    if(next2[0] == '\n')
+    if(next2[0] == '\n'){
         system("cls");
-
+    }
     //new start
 
     printf("Name--%s\n",name);
