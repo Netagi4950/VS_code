@@ -11,9 +11,9 @@ int main(){
     char starti[10];
     printf("===========Enter your all with truth============");
     fgets(starti,sizeof(starti),stdin);
-    if (starti==(char)13 ){
+    if (starti[0] == '\n')
         system("cls");
-    }
+    
     //input section for me 
     system ("cls");
     printf ("Enter your name: ");
@@ -31,13 +31,13 @@ int main(){
     //result section
     char next2[40];
     printf ("=================================\n");
-    printf("Here is your all data\n");
+    printf("     Here is your all data\n");
     printf("=================================\n");
     fgets(next2,sizeof(next2),stdin);
-    if(next2==(char)13){
-        system("cls");
+    if(next2[0] == '\n')
+        //system("cls");
 
-    }
+    //new start
 
     printf("Name--%s\n",name);
     printf("Mother's Name--%s\n",mname);
@@ -47,9 +47,10 @@ int main(){
     char next[10];
     printf("Lets go to the next part : ");
     fgets(next,sizeof(next),stdin);
-    if (next==(char)13 ){
+    if (next[0] == '\n')
         system("cls");
-    }
+    
+    //system("cls");
     printf("Hi amn how are yo\n");
     system ("pause ");
     return 0;
