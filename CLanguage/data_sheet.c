@@ -4,6 +4,8 @@
 #include <string.h>
 int main(){
     char name[40],fname[40],mname[40],schname[90];
+    int age,phone;
+    float hight;
     //input section
     //to take input of a str with space it it you have to do this below
     //fgets (name ,sizeof(name ),stdin);
@@ -28,6 +30,15 @@ int main(){
     printf ("Enter your school name: ");
     fgets (schname ,sizeof(schname),stdin);
     system("cls");
+    printf("What is your age : ");
+    scanf("%d",age );
+    system("cls");
+    printf ("What is your phone no : ");
+    scanf("%d",phone);
+    system ("cls");
+    printf( "What is your hight : ");
+    scanf ("%f",hight);
+
     //result section
     char next2[40];
     printf ("=================================\n");
