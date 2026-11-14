@@ -26,7 +26,7 @@ int main(){
         yn=getch();
 
     }
-    while(yn=="y"||yn=="Y"||yn==(char)13);
+    while(yn=='y'||yn=='Y'||yn==(char)13);
         system("cls");
         printf("The link list-\n");
         temp=head;
