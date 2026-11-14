@@ -68,9 +68,9 @@ int main(){
     printf("     Here is your all data\n");
     printf("=================================\n");
     fgets(next2,sizeof(next2),stdin);
-    if(next2[0] == '\n'){
+    if(next2[0] == '\n')
         system("cls");
-    }
+    
     //new start
 
     printf("Name--%s\n",name);

@@ -6,14 +6,15 @@ struct list {
     struct list *next;
 };
 
+
 int main() {
     typedef struct list node;
 
-    node *one, *two, *three;
-
-    one = (node *)malloc(sizeof(node));
-    two = (node *)malloc(sizeof(node));
-    three = (node *)malloc(sizeof(node));
+    node *one,*two,*three;
+    one =(node *)malloc(sizeof(node));
+    two =(node *)malloc(sizeof(node));
+    three =(node *)malloc(sizeof(node));
+    
 
     one->data = 25;
     two->data = 75;
@@ -23,6 +24,10 @@ int main() {
     two->next = three;
     three->next = NULL;
 
-    printf("%d -> %d -> %d -> NULL\n", one->data, one->next->data, one->next->next->data);
-    return 0;
+    printf("%d -> %d -> %d -> NULL\n", one->data, two->data, three->data);
+
+    free(three);
+    free(two);
+    free(one);
+    return EXIT_SUCCESS;
 }
