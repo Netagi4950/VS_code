@@ -36,10 +36,10 @@ int main(){
     do{
         temp=newNode();
         system("cls");
-        printf("Enter data");
+        printf("Enter data: ");
         scanf("%d",&temp->data);
         head=toFront(temp,head);
-        printf("Whant to enter more(y/n)");
+        printf("Whant to enter more(y/n): ");
         yn=getch();
 
     }while (yn=='y'||yn=='Y'||yn==(char)13);
