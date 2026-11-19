@@ -4,18 +4,14 @@
 int main(){
     system ("cls");
     int g,h;
-    float math,i=0;
+    float math;
     printf("Enter me the hight form the uper level of hte water: ");
     scanf("%d",&h);
     g=10;
     math=2*g*h;
-    while (i * i <= math){
-
-        i++;
-    }
-    i--;
+    math=sqrt(math);
     system("cls");
-    printf("Square root = %.2f\n", i);
+    printf("Square root = %.2f\n",math);
     system("pause");
     return 0;
 }
