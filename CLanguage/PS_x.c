@@ -3,13 +3,13 @@
 #include <math.h>
 int main (){
     system ("cls");
-    double h,h1;
-    double math,i=0;
+    int h,h1;
+    float math,i=0;
     printf ("Ennter me the hight form the uper level of hte water: ");
-    scanf ("%lf",&h);
+    scanf ("%d",&h);
     system("cls");
     printf ("Enter me the hight form the lower level of hte water: ");
-    scanf ("%lf",&h1);
+    scanf ("%d",&h1);
 
     math =h*h1;
     math =math*2;
