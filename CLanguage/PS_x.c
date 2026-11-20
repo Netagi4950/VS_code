@@ -19,13 +19,8 @@ int main (){
     scanf ("%d",&h1);
 
     math =h*h1;
-    math =math*2;
     math = sqrt(math);
-    //while (i * i <= math){
-
-    //    i++;
-    //}
-    //i--;
+    math =math*2;
     system ("cls");
     printf ("The value of X is : %.2f\n",math);
     system ("pause");
